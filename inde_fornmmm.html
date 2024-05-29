@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+
+ 
+<h2>formulario de canciones</h2>
+
+    <form action="###">
+        <label for="nomcancion">Nombre de la canción:</label><br>
+        <input type="text" id="songName" name="songName"><br>
+
+        <label for="artistName">Nombre del artista:</label><br>
+        <input type="text" id="artistName" name="artistName"><br>
+
+        <label for="duration_minutes">Duración de la canción (minutos):</label><br>
+        <input type="number" id="duration_minutes" name="duration_minutes" min="0"><br>
+        <label for="duration_seconds">Duración de la canción (segundos):</label><br>
+        <input type="number" id="duration_seconds" name="duration_seconds" min="0" max="59"><br>
+        
+        <label for="date">Fecha:</label><br>
+        <input type="date" id="date" name="date"><br>
+        
+        <label for="genre">Género</label>
+        <br>
+        <div class="genres">
+            <select name="genres" id="genre">
+                <option value="null">inserte el genero de la cancion</option>
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="hiphop">Hip Hop</option>
+                <option value="country">Country</option>
+                <option value="jazz">Jazz</option>
+                <option value="blues">Blues</option>
+                <option value="classical">Clásica</option>
+                <option value="reggae">Reggae</option>
+                <option value="soul">Soul</option>
+                <option value="metal">Metal</option>
+                <option value="folk">Folk</option>
+                <option value="punk">Punk</option>
+                <option value="disco">Disco</option>
+                <option value="funk">Funk</option>
+                <option value="rnb">R&B</option>
+                <option value="electronic">Electrónica</option>
+                <option value="house">House</option>
+                <option value="techno">Techno</option>
+                <option value="latin">Latina</option>
+                <option value="reggaeton">Reggaetón</option>
+                <option value="salsa">Salsa</option>
+                <option value="bachata">Bachata</option>
+                <option value="merengue">Merengue</option>
+                <option value="cumbia">Cumbia</option>
+                <option value="flamenco">Flamenco</option>
+                <option value="samba">Samba</option>
+                <option value="bossanova">Bossa Nova</option>
+                <option value="kpop">K-Pop</option>
+                <option value="jpop">J-Pop</option>
+                <option value="gospel">Gospel</option>
+                <option value="blues">Blues</option>
+                <option value="jazz">Jazz</option>
+                <option value="swing">Swing</option>
+                <option value="bluegrass">Bluegrass</option>
+                <option value="ambient">Ambient</option>
+                <option value="newage">New Age</option>
+                <option value="synthpop">Synthpop</option>
+                <option value="emo">Emo</option>
+                <option value="grunge">Grunge</option>
+                <option value="hardcore">Hardcore</option>
+                <option value="heavy_metal">Heavy Metal</option>
+                <option value="indie">Indie</option>
+                <option value="alternative">Alternativa</option>
+                <option value="ska">Ska</option>
+                <option value="death_metal">Death Metal</option>
+                <option value="trap">Trap</option>
+                <option value="dubstep">Dubstep</option>
+                <option value="drum_bass">Drum & Bass</option>
+                <option value="psytrance">Psytrance</option>
+                <option value="hardstyle">Hardstyle</option>
+                <option value="gothic">Gótica</option>
+                <option value="industrial">Industrial</option>
+                <option value="trip_hop">Trip Hop</option>
+                <option value="neoclassical">Neoclásica</option>
+                <option value="world_music">Música del Mundo</option>
+            </select>
+
+        <label for="link">enlace</label><br>
+        <input type="text" id="link" name="link"><br>
+        </div>
+
+        <input type="submit" value="Enviar"  onclick="showAlert()">
+        
+    </form>
+    <script>
+        function showAlert() {
+          alert("Formulario enviado");
+        }
+    </script>
+
+
+    
+</body>
+</html>

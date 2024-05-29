@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(25, 20, 20);
+    font: normal;
+    border-radius: 2px;
+}
+
+
+h2 {
+    
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: rgb(30, 215, 96);
+}
+
+form {
+
+    color: white;
+    background-color : black;
+    max-width: 900PX;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input, textarea, select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    
+    background-color:rgb(30, 215, 96) ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input, select {
+    
+    background-color:black ;
+    color: #fff;
+}
